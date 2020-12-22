@@ -1,0 +1,13 @@
+<addon id="script.module.jsbeautifier" name="jsbeautifier" provider-name="J.D." version="1.10.3">
+	<requires>
+		<import addon="xbmc.python" version="2.18.0" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<source>https://beautifier.io/</source>
+		<license>GPL-3.0</license>
+		<summary lang="en">jsbeautifier.</summary>
+		<description lang="en">jsbeautifier.</description>
+	</extension>
+</addon>
