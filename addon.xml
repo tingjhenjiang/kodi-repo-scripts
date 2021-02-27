@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="script.module.selenium"
 		name="Selenium and Web Drivers"
-		version="3.12.4.002"
+		version="3.12.4.002+matrix.1"
 		provider-name="YDRAGON">
 	<requires>
-		<import addon="xbmc.python" version="2.18.0" />
+		<import addon="xbmc.python" version="3.0.0" />
 	</requires>
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
 		<platform>all</platform>
 		<summary>Selenium automates browsers.</summary>
 		<description>Selenium has the support of some of the largest browser vendors who have taken (or are taking) steps to make Selenium a native part of their browser. It is also the core technology in countless other browser automation tools, APIs and frameworks.</description>
